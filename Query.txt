@@ -1,0 +1,18 @@
+# mutation{
+#   createUser(firstName:"Pedro",lastName:"Machado", email:"likeand@subscribe.com",password:"notmyactualpassword"){
+#     firstName
+#     lastName
+#     email
+#     password
+#   }
+# }
+
+# query{
+#   getAllUsers{
+#     id
+#     firstName
+#     lastName
+#     email
+#     password
+#   }
+# }
